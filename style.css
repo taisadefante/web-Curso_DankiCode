@@ -12,9 +12,9 @@ a {
 /****************************MENU****************************/
 
 .center {
-  max-width: 1100px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 2%;
+  padding: 0 2%;
 }
 
 .clear {
@@ -85,12 +85,13 @@ section.loja {
 
 section.loja > .center {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .loja-wraper {
   width: 33.3%;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .box-single-loja {
@@ -112,4 +113,13 @@ section.loja > .center {
   padding: 15px 8px;
   font-size: 15px;
   color: rgb(10, 10, 10);
+}
+
+.loja-wraper a {
+  color: white;
+  background: #5fb382;
+  padding: 10px 8px;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
