@@ -9,6 +9,8 @@ a {
   text-decoration: none;
 }
 
+/****************************MENU****************************/
+
 .center {
   max-width: 1100px;
   margin: 0 auto;
@@ -52,3 +54,27 @@ header > .center {
 .menu a {
   color: white;
 }
+
+/*****************************************************************/
+
+section.texto-chamada {
+  background: #4c3282;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+
+section.texto-chamada i {
+  font-size: 40px;
+}
+
+section.texto-chamada h2,
+section.text-chamada h3 {
+  font-weight: normal;
+}
+
+section.texto-chamada h2 > b {
+  color: rgb(231, 66, 107);
+}
+
+/*****************************************************************/
